@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: $bg-primary;
+  color: $white;
+}
+
+body {
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $green-secondary;
+  outline: 1px solid $green-primary;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,21 @@
+.container {
+  width: 95%;
+  max-width: 900px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.mb {
+  margin-bottom: 14rem;
+}
+
+.active {
+  visibility: hidden;
+}
