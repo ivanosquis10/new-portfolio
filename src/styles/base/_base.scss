@@ -27,6 +27,7 @@ body {
 body {
   font-size: 1.6rem;
   overflow-x: hidden;
+  // overflow-y: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -40,4 +41,9 @@ body::-webkit-scrollbar-thumb {
   background-color: $green-secondary;
   outline: 1px solid $green-primary;
   border-radius: 0.5rem;
+}
+
+ul,
+li {
+  list-style: none;
 }

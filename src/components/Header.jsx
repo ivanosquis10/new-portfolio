@@ -9,27 +9,22 @@ const Header = () => {
   };
 
   return (
-    <header id="home" className="Header">
-      <div className="logo">
-        <img src={heart} alt="heart" />
-        <a href="#">Ivanos!</a>
+    <header id='home' className='Header'>
+      <div className='logo'>
+        <img src={heart} alt='heart' />
+        <a href='#'>Ivanos!</a>
       </div>
 
-      <nav className={`nav ${menu ? 'active' : ''}`}>
-        <a href="#" className="active-link">
+      <nav className={`nav ${!menu ? 'active' : ''}`}>
+        <a href='#' className='active-link'>
           Home
         </a>
-        <a href="#projects">Projects</a>
-        <a href="#about-me">About me!</a>
-        <a href="#contact">Contact me!</a>
+        <a href='#projects'>Projects</a>
+        <a href='#about-me'>About me!</a>
+        <a href='#contact'>Contact me!</a>
       </nav>
-      <div onClick={handleClick} className="icon">
-        <box-icon
-          color="#ffffff"
-          // animation="tada-hover"
-          name="menu"
-          size="lg"
-        ></box-icon>
+      <div onClick={handleClick} className='icon'>
+        <box-icon color='#ffffff' name='menu' size='lg'></box-icon>
       </div>
     </header>
   );
